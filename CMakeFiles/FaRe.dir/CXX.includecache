@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/Documents/Biometria/FaRe/include/PhotosContainer.h
+cstdio
+-
+iostream
+-
+opencv2/opencv.hpp
+-
+string
+-
+
+/root/Documents/Biometria/FaRe/src/PhotosContainer.cpp
+/root/Documents/Biometria/FaRe/include/PhotosContainer.h
+-
+
+/root/Documents/Biometria/FaRe/src/Program.cpp
+algorithm
+-
+cstdio
+-
+iostream
+-
+/root/Documents/Biometria/FaRe/include/PhotosContainer.h
+-
+
