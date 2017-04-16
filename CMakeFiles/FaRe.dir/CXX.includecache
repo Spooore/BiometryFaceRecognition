@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/root/Documents/Biometria/FaRe/include/Graph.h
+cstdio
+-
+iostream
+-
+opencv2/opencv.hpp
+-
+algorithm
+-
+stack
+-
+
 /root/Documents/Biometria/FaRe/include/PhotosContainer.h
 cstdio
 -
@@ -14,6 +26,10 @@ iostream
 opencv2/opencv.hpp
 -
 string
+-
+
+/root/Documents/Biometria/FaRe/src/Graph.cpp
+/root/Documents/Biometria/FaRe/include/Graph.h
 -
 
 /root/Documents/Biometria/FaRe/src/PhotosContainer.cpp
@@ -28,5 +44,7 @@ cstdio
 iostream
 -
 /root/Documents/Biometria/FaRe/include/PhotosContainer.h
+-
+/root/Documents/Biometria/FaRe/include/Graph.h
 -
 

@@ -17,9 +17,9 @@ private:
   int width;
   int height;
 public:
-  Mat getImage();
   PhotosContainer(char imagePath[]);
   PhotosContainer(char imagePath[],int width ,int height);
+  Mat getImage();
   void medianFilter(int ksize);
 };
 

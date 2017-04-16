@@ -9,10 +9,12 @@ find_package(OpenCV REQUIRED )
 set( NAME_SRC
     src/Program.cpp
     src/PhotosContainer.cpp
+    src/Graph.cpp
 )
 
 set( NAME_HEADERS
      include/PhotosContainer.h
+     include/Graph.h
 )
 
 INCLUDE_DIRECTORIES(  ${OpenCV_INCLUDE_DIRS} ${CMAKE_CURRENT_SOURCE_DIR}/include )
