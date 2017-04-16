@@ -14,9 +14,13 @@ class PhotosContainer
 {
 private:
   Mat image;
+  int width;
+  int height;
 public:
+  Mat getImage();
   PhotosContainer(char imagePath[]);
-  void medianFilter(void);
+  PhotosContainer(char imagePath[],int width ,int height);
+  void medianFilter(int ksize);
 };
 
 #endif
