@@ -17,6 +17,8 @@ algorithm
 -
 stack
 -
+cmath
+-
 
 /root/Documents/Biometria/FaRe/include/PhotosContainer.h
 cstdio

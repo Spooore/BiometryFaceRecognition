@@ -7,6 +7,7 @@
 #include <opencv2/opencv.hpp>
 #include <algorithm>
 #include <stack>
+#include <cmath>
 
 using namespace std;
 using namespace cv;
@@ -21,6 +22,7 @@ private:
   bool** visited;
   void MakeGraph(void);
   vector<pair<int,int>> DFS(int,int);
+  bool isMarginCloseEnough(Vec3b currentBlobIntensity,Vec3b candidateIntensity);
 public:
   Graph(Mat image,int margin);
   bool ValidBoundries(int x,int y);
